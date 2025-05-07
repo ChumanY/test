@@ -1,0 +1,22 @@
+services:
+  test-api:
+    image: test-api:latest
+    container_name: test-api
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGO_URI=mongodb://mongo-test:27017
+    depends_on:
+      - test-mongo
+    networks:
+      - app-network
+
+  test-mongo:
+    image: mongo-test:latest
+    container_name: mongo-test
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+networks:
+  app-network:
