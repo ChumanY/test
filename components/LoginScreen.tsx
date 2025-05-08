@@ -6,6 +6,11 @@ import { RootStackParamList } from '../app/_layout';
 
 const { width, height } = Dimensions.get('window');
 
+const screenHeight = Dimensions.get('window').height;
+const screenWidth = Dimensions.get('window').width;
+
+const isMobile = screenWidth < 768;
+
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
@@ -63,20 +68,20 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   background: {
     flex: 1,
-    flexDirection: 'row',
+    flexDirection: isMobile ? 'column' : 'row',
   },
   leftSection: {
     flex: 1,
     resizeMode: 'cover',
     width: '100%',
-    height: '100%',
+    height: isMobile ? screenHeight * 0.6 : '100%',
   },
   rightSection: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    width: '30%',
-    height: '100%',
+    width: isMobile ? '100%' : '30%',
+    height: isMobile ? screenHeight * 0.6 : '100%',
   },
   formContainer: {
     width: '100%',
