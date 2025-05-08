@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.chumany.test"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "expo": {
+      "android": {
+        "package": "com.example.app"
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f73ef51c-5b50-4dd3-a869-eb3ee3ea0814"
+      }
     }
   }
 }
