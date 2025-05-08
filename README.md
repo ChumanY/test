@@ -106,3 +106,18 @@ Una vez iniciado, accede a la aplicación desde tu navegador o dispositivo móvi
    - [Vercel](https://vercel.com/)
    - [Netlify](https://www.netlify.com/)
    - Cualquier servidor web de tu elección.
+  
+## Validación de Imágenes
+### Login Screen
+![image](https://github.com/user-attachments/assets/3145009a-c954-478d-a386-06d27eabdb2a)
+### Dashboard Screen
+![image](https://github.com/user-attachments/assets/3cfe812e-a2c8-4b41-baeb-c76fb3aa5cab)
+### Api Response 
+![image](https://github.com/user-attachments/assets/9212759a-3019-4284-a0da-f16ebf8f1beb)
+### Loading Screen
+![image](https://github.com/user-attachments/assets/e2063dcd-866f-40e4-89a0-409bbf2ae0ea)
+
+
+
+
+
