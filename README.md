@@ -117,6 +117,10 @@ Una vez iniciado, accede a la aplicación desde tu navegador o dispositivo móvi
 ### Loading Screen
 ![image](https://github.com/user-attachments/assets/e2063dcd-866f-40e4-89a0-409bbf2ae0ea)
 
+# APK
+Debido a que se trata de realizar el build dentro de una cuenta gratuita esta se satura por las múltiples peticiones de distintos usuarios y deja el build pendiente impidiendo realizar el APK.
+![image](https://github.com/user-attachments/assets/0aed2961-f962-4ad4-aa7c-075666673580)
+
 
 
 
