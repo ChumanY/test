@@ -8,7 +8,7 @@ Clona este repositorio en tu máquina local:
 ### 2. Instalar Dependencias
 Instala las dependencias necesarias ejecutando:
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### 3. Configurar Docker
